@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="todobox">
+        <h1>To-do List</h1>
+        <p>Create To-do list....</p>
+
+        <div id="titlebox">
+            <input type="text" id="addtitle" placeholder="Enter Title">
+            <button onclick="addtitle()">Add Title</button>
+        </div>
+
+        <div id="listbox">
+            <input type="text" id="addlist" placeholder="Enter List items">
+            <button id="addbutton" onclick="addlist()">✔</button>
+        </div>
+
+        <h2 id="title"></h2>
+        <ul id="list"></ul>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
